@@ -1,0 +1,29 @@
+@import 'https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap';
+
+.button {
+  padding: 20px 30px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 24px;
+  font-family: "Balsamiq Sans", serif;
+  font-weight: 400;
+  font-style: normal;
+  transition: 0.3s ease-in-out;
+  color: #F5F5F5;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  background: linear-gradient(135deg, #FFC0CB, #FF8FA3), #FFC0CB;
+
+  &:hover {
+    scale: 1.1;
+  }
+  
+  &:focus {
+    background-color: #fea9b7;
+  }
+
+  &:active {
+    transform: scale(0.95);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+}

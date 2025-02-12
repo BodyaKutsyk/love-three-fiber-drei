@@ -1,3 +1,1 @@
-# **React+ts**
-
-### This is my first template
+# **Three/drei/fiber Love**
